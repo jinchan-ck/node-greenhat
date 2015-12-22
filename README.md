@@ -1,11 +1,14 @@
-# Node Greenhat
+## Node Greenhat
 :construction_worker: Quick hack for making real work happen.
 
 Make your github `Contributions` look awesome. This is inspired by [Greenhat](https://github.com/4148/greenhat)
 (https://github.com/4148/greenhat)
+
+**Don't cate about it, just for fun~**
+
 ![contributions](./contributions.png)
 
-# Usage
+## Usage
 
 ```
 git clone git@github.com:sweetvvck/node-greenhat.git
@@ -21,3 +24,5 @@ node greenhat.js days fromDate
 #days means how many days you want to fill your contributions
 #fromDate means from when(not include that day) you want to fill your contributions
 ```
+## License
+node-greenhat is distributed under the GNU General Public License v3.0 (GPLv3).

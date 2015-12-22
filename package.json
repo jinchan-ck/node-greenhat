@@ -14,12 +14,13 @@
     "hack"
   ],
   "author": "Sweetvvck <sweetvvck@gmail.com> (http://blog.csdn.net/sweetvvck)",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/sweetvvck/node-greenhat/issues"
   },
   "homepage": "https://github.com/sweetvvck/node-greenhat#readme",
   "dependencies": {
     "async": "^1.5.0"
-  }
+  },
+  "devDependencies": {}
 }
