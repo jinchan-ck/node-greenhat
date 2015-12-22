@@ -1,0 +1,25 @@
+{
+  "name": "node-greenhat",
+  "version": "1.0.0",
+  "description": ":construction_worker: Quick hack for making real work happen.",
+  "main": "greenhat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweetvvck/node-greenhat.git"
+  },
+  "keywords": [
+    "hack"
+  ],
+  "author": "Sweetvvck <sweetvvck@gmail.com> (http://blog.csdn.net/sweetvvck)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sweetvvck/node-greenhat/issues"
+  },
+  "homepage": "https://github.com/sweetvvck/node-greenhat#readme",
+  "dependencies": {
+    "async": "^1.5.0"
+  }
+}
