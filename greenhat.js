@@ -3,8 +3,8 @@ var exec= require('child_process').exec;
 
 
 //Sat Dec 12 00:00:00 2015  -0400
-function getDateStr (n, startDate) {
-	var d = startDate.setDate(startDate.getDate() - n);
+function getCurrentDateStr (startDate) {
+	startDate.setDate(startDate.getDate() - 1);
 	var dStr = startDate.toString();
 	dArr = dStr.split(' ').slice(0, 5);
 	var tmp;
@@ -38,7 +38,8 @@ function main() {
   startdate = options.length > 1 ? new Date(options[1]) : new Date()
 	console.log('start');
 	async.timesSeries(n, function (i, next) {
-		var curdate = getDateStr(i, startdate)
+		var curdate = getCurrentDateStr(startdate)
+		console.log('Full contribution for date: ', curdate);
 		var numCommits = Math.floor((Math.random() * 10) + 1);
 		async.timesSeries(numCommits, function (index, cb) {
 			commit(curdate, cb);
